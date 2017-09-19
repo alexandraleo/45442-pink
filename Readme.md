@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Александра Леонова](https://up.htmlacademy.ru/adaptive/12/user/45442).
-* Наставник: `Неизвестно`.
+* Наставник: `Нет =(`.
 
 ---
 
