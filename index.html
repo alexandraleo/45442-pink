@@ -5,8 +5,130 @@
     <title>HTML Academy: Пинк</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p>
-
+    <header class="page-header">
+      <a href="#" class="page-header__logo-link">
+        <img src="http://via.placeholder.com/150x100" alt="HTML Academy: Пинк" class="page-header__logo-image" width="150" height="100">
+      </a>
+      <nav class="main-nav">
+        <button type="button" class="main-nav__button">Открыть/закрыть меню</button>
+        <ul class="main-nav__list menu">
+          <li class="menu__list"><a href="#" class="menu__link menu__link--active">Главная</a></li>
+          <li class="menu__list"><a href="" class="menu__link">Фотографии</a></li>
+          <li class="menu__list"><a href="" class="menu__link">Конкурс</a></li>
+          <li class="menu__list"><a href="" class="menu__link">HTML Academy</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="page-main">
+      <section class="page-main__app app">
+        <h2 class="app_title">Взгляните на жизнь иначе!</h2>
+        <button type="button" class="btn app__btn">Скачать приложение</button>
+        <a href="#" class="app__link"><img src="http://via.placeholder.com/150x100" alt="apple" class="app__os-icon app__os-icon--apple" width="150" height="100"></a>
+        <a href="#" class="app__link"><img src="http://via.placeholder.com/150x100" alt="android" class="app__os-icon app__os-icon--android" width="150" height="100"></a>
+        <a href="#" class="app__link"><img src="http://via.placeholder.com/150x100" alt="windows" class="app__os-icon app__os-icon--windows" width="150" height="100"></a>
+        <p class="app__paragraph">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+      </section>
+      <h2 class="page-main__proposal">Устали от серости мегаполиса?</h2>
+      <h2 class="page-main__proposal">Нам есть, что вам предложить!</h2>
+      <section class="page-main__advantages advantages">
+        <h2 class="advantages__title visially-hidden">Наши преимущества:</h2>
+        <img src="http://via.placeholder.com/200x150" alt="" class="advantages__image-big">
+        <ul class="advantages__list">
+          <li class="advantages__item">
+            <h3 class="advantages__item-title">Поднимает настроение</h3>
+            <img src="http://via.placeholder.com/150x100" alt="Настроение" class="advantages__image advantages__image--mood">
+            <p class="advantages__text">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+          </li>
+          <li class="advantages__item">
+            <h3 class="advantages__item-title">Меняет мир вокруг</h3>
+            <img src="http://via.placeholder.com/150x100" alt="Меняет мир" class="advantages__image advantages__image--world">
+            <p class="advantages__text">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+          </li>
+          <li class="advantages__item">
+            <h3 class="advantages__item-title">Заводит новых друзей</h3>
+            <img src="http://via.placeholder.com/150x100" alt="Новые друзья" class="advantages__image advantages__image--friends">
+            <p class="advantages__text">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+          </li>
+        </ul>
+      </section>
+      <section class="page-main__effect effect">
+        <h3 class="effect__title">Эффект на 24 часа!</h3>
+        <p class="effect__paragraph">Британские ученые провели исследования и доказали, что положительный эффект от использования приложения длится целые сутки!</p>
+        <a href="#" class="effect__link">Узнать больше об исследовании</a>
+      </section>
+      <section class="page-main__reviews reviews">
+        <div class="reviews__wrapper slider">
+          <blockquote class="reviews__item slider__item">
+            <cite class="reviews__author">Николай Петров</cite>
+            <p class="reviews__quote">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+          </blockquote>
+          <blockquote class="reviews__item slider__item">
+            <cite class="reviews__author">Николай Петров</cite>
+            <p class="reviews__quote">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+          </blockquote>
+          <blockquote class="reviews__item slider__item">
+            <cite class="reviews__author">Николай Петров</cite>
+            <p class="reviews__quote">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+          </blockquote>
+        </div>
+      </section>
+      <section class="page-main__price-list price-list">
+        <h2 class="price-list__title visually-hidden">Наши расценки</h2>
+        <table class="price-list__table">
+          <tr class="price-list__table-row price-list__table-row--headers">
+            <th class="price-list__header price-list__header--empty"></th>
+            <th class="price-list__header" scope="col">База <span class="price-list__subheader">1,99 USD</span></th>
+            <th class="price-list__header" scope="col">Стандарт <span class="price-list__subheader">3,99 USD</span></th>
+            <th class="price-list__header" scope="col">Анлим <span class="price-list__subheader">9,99 USD</span></th>
+          </tr>
+          <tr class="price-list__table-row">
+            <th class="price-list__option" scope="row">Розовый фильтр</th>
+            <td class="price-list__presence price-list__presence--yes">Да</td>
+            <td class="price-list__presence price-list__presence--yes">Да</td>
+            <td class="price-list__presence price-list__presence--yes">Да</td>
+          </tr>
+          <tr class="price-list__table-row">
+            <th class="price-list__option" scope="row">Смайлики</th>
+            <td class="price-list__presence price-list__presence--no">Нет</td>
+            <td class="price-list__presence price-list__presence--yes">Да</td>
+            <td class="price-list__presence price-list__presence--yes">Да</td>
+          </tr>
+          <tr class="price-list__table-row">
+            <th class="price-list__option" scope="row">Комментарии</th>
+            <td class="price-list__presence price-list__presence--no">Нет</td>
+            <td class="price-list__presence price-list__presence--no">Нет</td>
+            <td class="price-list__presence price-list__presence--yes">Да</td>
+          </tr>
+        </table>
+      </section>
+      <section class="page-main__contacts contacts">
+        <h2 class="contacts__title">Остались вопросы? Свяжитесь с нами!</h2>
+        <a href="tel:88125556666" class="contacts__link">
+          <h3 class="contacts__title">Звоните:</h3>
+          +7 (812) 555-66-66
+        </a>
+        <a href="" class="contacts__link">
+          <h3 class="contacts__title">Пишите:</h3>
+          mail@htmlacademy.ru
+        </a>
+        <a href="" class="contacts__link">
+          <h3 class="contacts__title">Приезжайте в гости:</h3>
+          ул. Большая Конюшенная, 19/8
+        </a>
+        <img src="http://via.placeholder.com/350x250" alt="Карта: ул. Большая Конюшенная, 19/8" class="contasts__map">
+      </section>
+    </main>
+    <footer class="page-main__footer footer">
+      <a href="#" class="footer__logo-link"><img src="http://via.placeholder.com/100x50" alt="" class="footer__logo"></a>
+      <section class="footer__socials socials">
+        <a href="#" class="socials__icon socials__icon--twitter">Twitter</a>
+        <a href="#" class="socials__icon socials__icon--facebook">Facebook</a>
+        <a href="#" class="socials__icon socials__icon--youtube">Youtube</a>
+      </section>
+      <a href="#" class="footer__developer developer">
+        <span class="developer__text">Разработано</span>
+        <img src="http://via.placeholder.com/100x50" alt="Разработчик" class="developer__logo">
+      </a>
+    </footer>
   </body>
 </html>
